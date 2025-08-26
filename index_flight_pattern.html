@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Flight Pattern – Full Sail University</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    body {
+      background-color: #fff8f5;
+      font-family: 'Inter', sans-serif;
+    }
+    .card {
+      background: white;
+      border-radius: 1rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      padding: 1.5rem;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .card:hover {
+      transform: translateY(-4px) scale(1.01);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    }
+    .section-title {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+    .section-desc {
+      font-size: 0.85rem;
+      color: #555;
+      margin-bottom: 1.25rem;
+    }
+  </style>
+</head>
+<body class="p-6">
+  <header class="text-center mb-10">
+    <h1 class="text-5xl font-extrabold text-orange-600 mb-2">Flight Pattern</h1>
+    <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+      Welcome to Full Sail University's Spekit engagement dashboard. This interactive experience represents the current state of platform usage, challenges, and opportunities. 
+      Our shared mission is to elevate your Spekit instance into a unified hub for onboarding, support, and institutional knowledge. Dive in to explore where you are—and where we're heading.
+    </p>
+    <div class="mt-6">
+      <button onclick="window.print()" class="border border-orange-600 text-orange-600 font-semibold py-2 px-4 rounded hover:bg-orange-50">
+        📄 Export as PDF
+      </button>
+    </div>
+  </header>
+
+  <main class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-6" id="main-content">
+    <!-- Modules injected here -->
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
