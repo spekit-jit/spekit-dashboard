@@ -1,0 +1,48 @@
+{
+  "departments": [
+    {
+      "name": "Admissions",
+      "views": 4500,
+      "adoption": 88
+    },
+    {
+      "name": "Tech Support",
+      "views": 2300,
+      "adoption": 61
+    },
+    {
+      "name": "Financial Aid",
+      "views": 1800,
+      "adoption": 52
+    },
+    {
+      "name": "Academics",
+      "views": 2200,
+      "adoption": 66
+    },
+    {
+      "name": "Career Services",
+      "views": 900,
+      "adoption": 35
+    }
+  ],
+  "popular_speks": [
+    "Contact Management",
+    "Opportunity Overview",
+    "Duplicate Review Process",
+    "Program Enrollment Status",
+    "Updating Contact Info"
+  ],
+  "no_result_queries": [
+    {
+      "query": "Enrollment freeze",
+      "suggested": "Program Enrollment Status",
+      "reason": "Likely confusion with hold policies"
+    },
+    {
+      "query": "Scholarship rules",
+      "suggested": "Financial Aid Policy Overview",
+      "reason": "Context suggests eligibility questions"
+    }
+  ]
+}
